@@ -28,7 +28,7 @@ npm run dev
 - `navigation.js`：手机菜单、键盘关闭菜单与当前板块导航高亮。
 - `assets/logo.png`：AI 生成的透明 AW 个人 Logo，用于导航和页脚，深色主题通过 CSS 呈现白色标志。
 - `assets/favicon-tech.svg`：适配深色主题的青蓝色 AW 网站图标。
-- `assets/profile-aiden.webp`：由用户提供的本人照片处理而成，使用深蓝背景与轻微青蓝轮廓光。更换照片时同时更新 `index.html` 中的预加载链接和 `.profile-image` 的路径、替代文本与实际尺寸。头像区域使用 `contain`，避免手机端裁切头部。
+- `assets/profile-aiden-closeup.webp`：由用户提供的本人照片处理而成，使用近景头肩构图、深蓝背景与轻微青蓝轮廓光。更换照片时同时更新 `index.html` 中的预加载链接和 `.profile-image` 的路径、替代文本与实际尺寸。头像区域使用 `contain`，避免手机端裁切头部。
 - `assets/project-*.svg`：四张本地项目封面占位图。真实截图可放入 `assets/` 并更新项目的 `cover` 路径；图形仅为示意。
 - 邮箱：修改 `index.html` 中 `#email-link` 的 `href` 和显示文字，复制功能会自动读取链接中的地址。
 
