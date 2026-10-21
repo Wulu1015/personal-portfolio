@@ -1,6 +1,6 @@
 # AI 与数据分析个人作品集
 
-简洁的中文个人作品集，使用原生 HTML、CSS 和 JavaScript，无需安装运行依赖。包含响应式导航、首屏、关于我、项目展示、技能和联系方式。
+深色科技风中文个人作品集，采用深蓝背景、青蓝强调色、本地网格与线框插画，使用原生 HTML、CSS 和 JavaScript，无需安装运行依赖。包含响应式导航、首屏、关于我、项目展示、技能和联系方式。
 
 ## 在线访问与更新
 
@@ -26,8 +26,9 @@ npm run dev
 - `app.js`：`projects` 数组中的示例项目。包括标题、摘要、分类（`ai` / `data`）、标签、封面路径 `cover`、项目问题、个人角色、方法与交付物。
 - `style.css`：统一配色、系统字体、字号、留白、项目卡片和响应式布局。
 - `navigation.js`：手机菜单、键盘关闭菜单与当前板块导航高亮。
-- `assets/logo.png`：AI 生成的透明 AW 个人 Logo，用于导航、页脚和网站图标。
-- `assets/profile-placeholder.svg`：通用人物插画头像占位图。换成本人照片时，修改 `index.html` 中 `.profile-image` 的 `src`、`alt`，并移除头像占位说明。
+- `assets/logo.png`：AI 生成的透明 AW 个人 Logo，用于导航和页脚，深色主题通过 CSS 呈现白色标志。
+- `assets/favicon-tech.svg`：适配深色主题的青蓝色 AW 网站图标。
+- `assets/profile-placeholder.svg`：深蓝色线框人物插画头像占位图。换成本人照片时，修改 `index.html` 中 `.profile-image` 的 `src`、`alt`，并移除头像占位说明。
 - `assets/project-*.svg`：四张本地项目封面占位图。真实截图可放入 `assets/` 并更新项目的 `cover` 路径；图形仅为示意。
 - 邮箱：修改 `index.html` 中 `#email-link` 的 `href` 和显示文字，复制功能会自动读取链接中的地址。
 

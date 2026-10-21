@@ -1,23 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" fill="none">
-<title>个人头像插画占位图</title><desc>墨绿与米白配色的通用人物插画，可替换为本人照片。</desc>
-<rect width="640" height="760" rx="32" fill="#E8EDE3"/>
-<circle cx="320" cy="324" r="232" stroke="#CFD9C8"/>
-<circle cx="320" cy="324" r="188" fill="#DCE5D4"/>
-<path d="M78 588H562M101 633H539M124 678H516" stroke="#D2DCCB"/>
-<circle cx="514" cy="150" r="44" fill="#DCE6B6"/>
-<path d="M109 205V169M91 187H127M96 174L122 200M122 174L96 200" stroke="#7E956D" stroke-width="3" stroke-linecap="round"/>
-<path d="M102 760V644C102 537 186 472 320 472C454 472 538 537 538 644V760H102Z" fill="#315A45"/>
-<path d="M177 760V651C177 558 225 511 320 511C415 511 463 558 463 651V760" fill="#3D6952"/>
-<path d="M269 435V499C269 534 371 534 371 499V435H269Z" fill="#C7BFA7"/>
-<path d="M269 450C292 466 346 471 371 448V474C338 493 300 493 269 476V450Z" fill="#B7AF97"/>
-<path d="M214 295C214 224 257 185 320 185C384 185 426 224 426 295V360C426 432 380 477 320 477C260 477 214 432 214 360V295Z" fill="#D8CFB9"/>
-<path d="M214 338C185 333 189 383 217 385M426 338C455 333 451 383 423 385" fill="#D8CFB9"/>
-<path d="M211 332C195 262 214 183 278 172C322 137 390 168 413 211C443 241 438 297 426 335L413 284C385 291 351 263 334 245C309 277 255 291 227 282L219 336L211 332Z" fill="#294C3B"/>
-<path d="M250 233C271 214 300 207 329 210" stroke="#486B51" stroke-width="5" stroke-linecap="round"/>
-<path d="M230 518L285 573L320 536L354 573L410 518" stroke="#73927A" stroke-width="2"/>
-<path d="M320 539V760" stroke="#7C9B801F" stroke-width="2"/>
-<circle cx="320" cy="591" r="3" fill="#8AA58C"/><circle cx="320" cy="638" r="3" fill="#8AA58C"/>
-<path d="M177 650V760M463 650V760" stroke="#294C3B" stroke-width="2"/>
-<rect x="404" y="609" width="54" height="53" rx="3" stroke="#719279"/>
-<path d="M414 620L425 643L436 620L447 643" stroke="#B1C49B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<title>深色科技风个人头像占位插画</title>
+<desc>通用几何人物插画，配以青色轮廓与HUD轨道。这是头像占位图，可替换为本人照片，并非真实肖像。</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#1b3550" stroke-opacity=".32"/></pattern><linearGradient id="portrait" x1="160" y1="180" x2="490" y2="740" gradientUnits="userSpaceOnUse"><stop stop-color="#1b3550"/><stop offset="1" stop-color="#0b1627"/></linearGradient><radialGradient id="halo"><stop stop-color="#101f34"/><stop offset="1" stop-color="#07101c"/></radialGradient></defs>
+<rect width="640" height="760" fill="#07101c"/>
+<rect width="640" height="760" fill="url(#grid)"/>
+<circle cx="320" cy="325" r="250" fill="url(#halo)"/>
+<circle cx="320" cy="325" r="241" stroke="#1b3550"/>
+<circle cx="320" cy="325" r="214" stroke="#22d3ee" stroke-opacity=".25" stroke-dasharray="3 12"/>
+<circle cx="320" cy="325" r="182" stroke="#1b3550" stroke-width="1.5"/>
+<path d="M114 202A241 241 0 0 1 263 91M526 448A241 241 0 0 1 415 548" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 104V55H89M551 55H600V104M40 656V705H89M551 705H600V656" stroke="#1b3550" stroke-width="2"/>
+<path d="M320 61V83M320 567V589M56 325H78M562 325H584" stroke="#67e8f9" stroke-opacity=".55"/>
+<circle cx="263" cy="91" r="4" fill="#22d3ee"/>
+<circle cx="526" cy="448" r="4" fill="#67e8f9"/>
+<path d="M116 760V647C116 540 200 490 320 490C440 490 524 540 524 647V760" fill="url(#portrait)" stroke="#1b3550" stroke-width="2"/>
+<path d="M116 647C116 540 200 490 265 500M375 500C440 490 524 540 524 647" stroke="#22d3ee" stroke-width="2" stroke-opacity=".65"/>
+<path d="M272 432V499L320 537L368 499V432" fill="#101f34" stroke="#1b3550" stroke-width="2"/>
+<path d="M210 291C210 220 254 179 320 179C386 179 430 220 430 291V359C430 431 381 478 320 478C259 478 210 431 210 359V291Z" fill="#101f34" stroke="#1b3550" stroke-width="2"/>
+<path d="M210 316V290C210 220 254 179 320 179C355 179 383 190 403 211M430 316V359C430 431 381 478 320 478C301 478 283 473 268 464" stroke="#67e8f9" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+<path d="M214 295C247 298 288 277 318 246C351 277 392 292 426 283V269C426 214 383 177 320 177C258 177 214 216 214 275V295Z" fill="#0b1627"/>
+<path d="M236 279C266 272 297 254 318 233C343 259 376 275 405 276" stroke="#1b3550" stroke-width="2"/>
+<path d="M257 337H280M360 337H383M319 349L310 382H326M294 415H347" stroke="#8b9bb0" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+<path d="M222 518L278 575L320 539L363 575L418 518M320 541V687" stroke="#1b3550" stroke-width="2"/>
+<path d="M222 518L278 575L320 539" stroke="#22d3ee" stroke-opacity=".6" stroke-width="1.5"/>
+<circle cx="320" cy="604" r="3" fill="#67e8f9"/><circle cx="320" cy="646" r="3" fill="#1b3550"/>
+<path d="M146 608H175V637M465 608H494V637" stroke="#1b3550" stroke-width="2"/>
+<rect x="180" y="694" width="280" height="37" rx="6" fill="#0b1627" stroke="#1b3550"/>
+<g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif"><text x="320" y="718" text-anchor="middle" font-size="12" fill="#8b9bb0" letter-spacing="1">头像占位插画 · 可替换本人照片</text></g>
 </svg>
