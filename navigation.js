@@ -30,6 +30,6 @@
         });
       }
     }, {rootMargin:'-15% 0px -65% 0px', threshold:0});
-    document.querySelectorAll('#about, #work, #skills, #contact').forEach(section => observer.observe(section));
+    document.querySelectorAll('#home, #about, #work, #skills, #contact').forEach(section => observer.observe(section));
   }
 })();

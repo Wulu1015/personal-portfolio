@@ -10,6 +10,7 @@
       category: 'ai',
       type: 'AI 应用',
       art: 'ai-preview',
+      cover: 'assets/project-knowledge.svg',
       tags: ['RAG', 'Python', '文档检索', '回答评估'],
       description: '示例项目：面向团队内部资料查找场景，探索结合文档检索与生成式 AI 的问答助手。下方展示方案设计，不代表已部署的客户系统。',
       problem: '当制度、产品说明与常见问题分散在不同文档中，使用者需要反复搜索，并难以判断回答是否来自可靠资料。',
@@ -23,6 +24,7 @@
       category: 'data',
       type: '数据分析',
       art: 'analytics-preview',
+      cover: 'assets/project-analytics.svg',
       tags: ['SQL', 'Python', '指标口径', '数据可视化'],
       description: '示例项目：使用模拟业务数据设计经营分析流程，帮助使用者从趋势、渠道与商品结构理解经营表现。图表仅作视觉示意，无真实业务数值。',
       problem: '不同报表对收入、订单和退款的定义不一致，团队难以在同一口径下讨论经营变化及其可能原因。',
@@ -36,6 +38,7 @@
       category: 'ai',
       type: 'AI 应用',
       art: 'flow-preview',
+      cover: 'assets/project-feedback.svg',
       tags: ['文本分析', '提示词设计', '人工复核', '分类评估'],
       description: '示例项目：探索将开放文本整理为可检索、可复核的问题主题，辅助团队阅读客户反馈。示例不声称模型已达到某个准确率。',
       problem: '反馈表达方式不统一，同一问题可能出现不同措辞；仅靠关键词容易遗漏上下文，也难以高效整理待处理事项。',
@@ -49,6 +52,7 @@
       category: 'data',
       type: '数据分析',
       art: 'segments-preview',
+      cover: 'assets/project-segments.svg',
       tags: ['Python', '用户分群', '行为分析', '实验设计'],
       description: '示例项目：用模拟用户行为数据演示分群思路，连接用户特征与后续验证计划。图中的分组位置为设计示意，不是分析结论。',
       problem: '当所有用户都使用同一套运营策略时，很难判断不同用户真正需要什么，也难以验证策略是否有效。',
@@ -57,35 +61,6 @@
       deliverables: ['分群分析笔记与特征说明', '用户群体画像和可视化原型', '运营假设清单与实验设计模板']
     }
   ];
-
-  // 预览均由本地 HTML/CSS 绘制；所有图形都是示意，避免引入外部资源。
-  const mockups = {
-    'ai-preview': `
-      <div class="preview-window chat-window" aria-hidden="true">
-        <div class="preview-toolbar"><span class="preview-brand">知序 <b>✳</b></span><span>KNOWLEDGE ASSISTANT</span></div>
-        <div class="chat-message chat-user">新成员入职，需要准备哪些资料？</div>
-        <div class="chat-message chat-assistant"><span class="chat-avatar">✳</span><div><strong>从资料中找到答案</strong><p>可以先查看入职指南中的资料清单。<br>每条回答，都有据可查。</p><span class="chat-citation">↗ 来源：团队入职指南</span></div></div>
-        <div class="chat-input"><span>向你的知识库提问…</span><b>↑</b></div>
-      </div><span class="preview-caption">RAG / 可追溯的回答</span>`,
-    'analytics-preview': `
-      <div class="preview-window dashboard-window" aria-hidden="true">
-        <div class="preview-toolbar"><span class="preview-brand">经营概览 <b>↗</b></span><span>示意数据</span></div>
-        <div class="metric-row"><div class="metric-card"><span>收入趋势</span><b>稳步变化 ↗</b></div><div class="metric-card"><span>观察维度</span><b>渠道 / 商品</b></div></div>
-        <div class="chart-grid"><div class="bar-chart"><span class="bar bar-one"></span><span class="bar bar-two"></span><span class="bar bar-three"></span><span class="bar bar-four"></span><span class="bar bar-five"></span><span class="bar bar-six"></span><span class="bar bar-seven"></span><span class="bar bar-eight"></span></div></div>
-        <div class="chart-note"><span>趋势探索</span><span>口径一致 · 来源清晰</span></div>
-      </div><span class="preview-caption">ANALYTICS / 从数据到判断</span>`,
-    'flow-preview': `
-      <div class="preview-window flow-window" aria-hidden="true">
-        <div class="preview-toolbar"><span class="preview-brand">反馈整理 <b>✦</b></span><span>HUMAN + AI</span></div>
-        <div class="flow-stack"><div class="flow-step flow-source"><span>01</span><div><strong>收集反馈</strong><small>把不同表达放到一起</small></div><b>≋</b></div><span class="flow-arrow">↓</span><div class="flow-step flow-model"><span>02</span><div><strong>理解与分类</strong><small>清晰规则 · 结构化输出</small></div><b>✳</b></div><span class="flow-arrow">↓</span><div class="flow-outputs"><span>产品建议</span><span>服务问题</span><span>人工复核 ↗</span></div></div>
-      </div><span class="preview-caption">TEXT INTELLIGENCE / 让反馈有序</span>`,
-    'segments-preview': `
-      <div class="preview-window segments-window" aria-hidden="true">
-        <div class="preview-toolbar"><span class="preview-brand">用户洞察 <b>◌</b></span><span>示意分群</span></div>
-        <div class="segment-canvas"><span class="segment-axis-y">使用频次 →</span><span class="segment-axis-x">行为深度 →</span><div class="segment-cluster cluster-one"><i class="segment-dot dot-one"></i><i class="segment-dot dot-two"></i><i class="segment-dot dot-three"></i><i class="segment-dot dot-four"></i><i class="segment-dot dot-five"></i></div><div class="segment-cluster cluster-two"><i class="segment-dot dot-one"></i><i class="segment-dot dot-two"></i><i class="segment-dot dot-three"></i><i class="segment-dot dot-four"></i><i class="segment-dot dot-five"></i></div><div class="segment-cluster cluster-three"><i class="segment-dot dot-one"></i><i class="segment-dot dot-two"></i><i class="segment-dot dot-three"></i><i class="segment-dot dot-four"></i><i class="segment-dot dot-five"></i></div></div>
-        <div class="segment-legend"><span><i></i>探索型</span><span><i></i>成长型</span><span><i></i>深度型</span></div>
-      </div><span class="preview-caption">SEGMENTATION / 理解用户差异</span>`
-  };
 
   const grid = document.querySelector('#projects');
   const dialog = document.querySelector('#project-dialog');
@@ -99,11 +74,16 @@
       .map(({ project, index }) => `
         <article class="project">
           <button type="button" class="project-visual ${project.art}" data-project="${index}" aria-label="查看${escapeHTML(project.title)}项目详情">
-            ${mockups[project.art]}
+            <img class="project-cover" src="${escapeHTML(project.cover)}" alt="${escapeHTML(project.title)}项目封面占位图" loading="lazy" width="800" height="500">
             <span class="preview-sample" aria-hidden="true">示例项目</span><span class="project-open" aria-hidden="true">↗</span>
           </button>
-          <div class="project-meta"><h3><button type="button" data-project="${index}">${escapeHTML(project.title)}</button></h3><span>${escapeHTML(project.type)} / 示例</span></div>
-          <p>${escapeHTML(project.subtitle)}</p>
+          <div class="project-content">
+            <div class="project-kicker"><span>${escapeHTML(project.type)}</span><small>示例项目</small></div>
+            <h3><button type="button" data-project="${index}">${escapeHTML(project.title)}</button></h3>
+            <p>${escapeHTML(project.subtitle)}</p>
+            <div class="project-tags">${project.tags.slice(0, 3).map(tag => `<span>${escapeHTML(tag)}</span>`).join('')}</div>
+            <button type="button" class="project-detail" data-project="${index}" aria-label="查看${escapeHTML(project.title)}项目详情">查看项目 <span aria-hidden="true">↗</span></button>
+          </div>
         </article>`).join('');
   }
 

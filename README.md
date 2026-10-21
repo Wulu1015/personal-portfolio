@@ -23,10 +23,12 @@ npm run dev
 ## 内容替换
 
 - `index.html`：姓名、个人介绍、所在地、技能、联系方式、网页标题和搜索摘要。
-- `app.js`：`projects` 数组中的示例项目。包括标题、摘要、分类（`ai` / `data`）、标签、项目问题、个人角色、方法与交付物。`mockups` 是本地 HTML/CSS 绘制的预览示意图。
-- `style.css`：配色、字体、几何插画、项目预览和响应式布局。
+- `app.js`：`projects` 数组中的示例项目。包括标题、摘要、分类（`ai` / `data`）、标签、封面路径 `cover`、项目问题、个人角色、方法与交付物。
+- `style.css`：统一配色、系统字体、字号、留白、项目卡片和响应式布局。
 - `navigation.js`：手机菜单、键盘关闭菜单与当前板块导航高亮。
-- `favicon.svg`：站点图标。
+- `assets/logo.png`：AI 生成的透明 AW 个人 Logo，用于导航、页脚和网站图标。
+- `assets/profile-placeholder.svg`：通用人物插画头像占位图。换成本人照片时，修改 `index.html` 中 `.profile-image` 的 `src`、`alt`，并移除头像占位说明。
+- `assets/project-*.svg`：四张本地项目封面占位图。真实截图可放入 `assets/` 并更新项目的 `cover` 路径；图形仅为示意。
 - 邮箱：修改 `index.html` 中 `#email-link` 的 `href` 和显示文字，复制功能会自动读取链接中的地址。
 
 姓名已更新为 Aiden Wu，联系邮箱为 `1141110667@qq.com`；个人介绍、技能和四个项目仍为示例。项目图形不代表真实业务数据，也不声称模型已达到某种准确率。正式使用前请将项目与个人介绍替换为真实经历。
@@ -35,6 +37,6 @@ npm run dev
 
 ## 验证
 
-`npm run check` 检查三个 JavaScript 文件语法。已使用 Chromium 检查 320、390、760、768、1024、1440 像素宽度，以及分类筛选、项目详情、Esc 关闭与焦点返回、邮箱复制、手机导航和资源加载。临时验证脚本与截图位于 Git 忽略的 `work/` 中。
+`npm run check` 检查三个 JavaScript 文件语法。已使用 Chromium 检查 320、390、760、768、1024、1280、1440 像素宽度，以及图片加载、分类筛选、卡片所有详情入口、Esc 关闭与焦点返回、邮箱复制和手机导航。临时验证脚本与截图位于 Git 忽略的 `work/` 中。
 
-静态部署文件：`index.html`、`style.css`、`app.js`、`navigation.js` 和 `favicon.svg`。`server.js` 仅用于本地预览。
+静态部署文件：`index.html`、`style.css`、`app.js`、`navigation.js` 和完整的 `assets/` 文件夹。`server.js` 仅用于本地预览。
