@@ -6,6 +6,6 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "check": "node --check app.js && node --check navigation.js && node --check server.js"
+    "check": "node --check app.js && node --check learning.js && node --check navigation.js && node --check server.js"
   }
 }

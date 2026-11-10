@@ -1,0 +1,55 @@
+{
+  "candidate": "2d9f249-learning-20261110",
+  "approval_date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "previous_published_sha": "eab8296cebc8d053b713e815e1e350d695ae295d",
+  "design_base_sha": "2d9f24930ba57963897fc874d6eb022cf6b0fd90",
+  "checkpoint_branch": "checkpoint/green-learning-20261110",
+  "previous_checkpoint_branch": "checkpoint/before-learning-20261110",
+  "approved_preview_sha256": "d7d3fa51f92b166adbf49814ae658d1e7bf2db19e0da18b9aa39b9f35ea4cbdf",
+  "approved_source_sha256": {
+    ".gitignore": "85fa2e93ad791fa1ea100c9fb781636f255b74a66629323dc5d83955d279e059",
+    "README.md": "4224c86894e2fa107fb544151fbb12c605d8635926c103644c0eb5874d48ffd5",
+    "app.js": "d353e82706c852a421a9b3e1f0fd5c65fd672c599ebfa3966872cce6c73a9714",
+    "assets/logo.png": "b7bc512f8fab29a857c101ce20cbf7652016187ad2f68fe34503c40c205dff9c",
+    "assets/project-analytics.svg": "5db064a31ad50fa96e3e762236441e9e2b34ac37d813e4602a6e388c31be28c4",
+    "assets/project-feedback.svg": "74bb0413a518420c0144b671380818865feb5c6c0c941bf679fbf799fa88e86e",
+    "assets/project-knowledge.svg": "fed82fe283a48e70a1fc9c7c2ce5237cdd613012e93e9ba231104b44cf8c99c1",
+    "assets/project-segments.svg": "a2c900164911b8f9f9a0b0da20188447eb2c0ced51a8f04bd7bbfc3bb7f40567",
+    "favicon.svg": "aa80ae77ff61b565de3c83e2c42fa4381666dff842b0556fd7ba2fcb93ed31d3",
+    "index.html": "f0fc3621d96687a85b321b5298664ebe25311a4f9167b9b28acda735f3280337",
+    "navigation.js": "8f60a9d0d6b6a17824fd6a6491d8e101538c793c9af008597fd598fe2e908a25",
+    "package.json": "9996621b22b9204e5f9479928ffad4ada7932c098ca5753d836af2bb6d51cd69",
+    "server.js": "ea0af2a9698541f6733c986e25ba0e02d8b3890dfd53cf6977e6ab59d51b3d5c",
+    "style.css": "a113a973e2deb88853f6e294ee981fc4f03150bdc5377ed3b8c8e59b2d53675c",
+    "AGENTS.md": "316e2ff02317df2dcba91b1206f466b2014311346f709f90a89fc8932f0f810c",
+    "learning.js": "a241d64ed5a589c3e512b94b951a17378ff7d27e732d707c3f2d5da438b4d203"
+  },
+  "metadata_only_changes": [
+    "README.md",
+    "AGENTS.md"
+  ],
+  "release_metadata_added": [
+    "VERSION-NODES.md",
+    "release/2026-11-10.json"
+  ],
+  "deployment": "Check the GitHub Pages run for the release commit; success is not assumed before deployment.",
+  "validation": {
+    "syntax": "passed",
+    "browser_checks": 18,
+    "widths": [
+      320,
+      390,
+      760,
+      761,
+      1050,
+      1051,
+      1440
+    ],
+    "no_js": "320px checked",
+    "limitations": [
+      "Not a Mac Safari test",
+      "Not a mainland multi-network access test"
+    ]
+  }
+}
